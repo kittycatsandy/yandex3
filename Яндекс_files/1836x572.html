@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0736)https://storage.mds.yandex.net/get-canvas-html5/1003119/92aef453-5f0c-46c0-bc02-24d161d93904/1836x572.html?link1=https%3A%2F%2Fan.yandex.ru%2Fcount%2FWR8ejI_zOD80HGq091XzCVY35-fD80K0qW4n6EooOW00000uXALIG0n80c2C66W4SBg7xlMptvho_W600Pwmb0MG0TgpyCZRW8200fW1shFmo5km0PA_xgu8k078k9Ra9C01xW7O0TY-WgS1u07svC2Y0UW1GlW1sehUlW680WAO0lJ50g02tlNW2_02fwUTXGBP9OW5yq-G1VDFi0Me5BW5g1J01VDFo0Me5D05g1IW1iw43AW6peGCk0Qg0ya6kR2Z8yLZrWUf1s_DF71Uq3amu0U6a846u0Zlkl05w0a7y0dO7FW9-0Y02XK4w0oN0k0DWe2HmO20W0YO3hdXZftI-9Zh1uWGpv7ZbGQO4QR39A4HwH8ErLAhgZDi8wWJoewLbDRuwTyM-1CAW1GXw1IC0fWMu9d0bGQW5l3OnPK6oHQO5-RebIwe5mcu5mJ05xRM0UWO0Q0PpeGCi1cu6V___m616l__2-MjPRX2i1gxik7iYkZo_Ay1WXmDHZP1EZ1OJqbDTaDXDwWU0R0V0We0B6JW1LR6aK2qp73i6ddRGnFZG-wOE-cSUt0p98RGKiL10m00~1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
+  <!--<base target="_blank">--><base href="." target="_blank"> 
+  <script>function CYandexHTML5BannerApi(){var getUrlParam=function(name){name=name.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var regex=new RegExp("[\\?&]"+name+"=([^&#]*)"),results=regex.exec(location.search);return results==null?"":decodeURIComponent(results[1].replace(/\+/g," "))};this.getClickURLNum=function(number){if(!number){number=1}var name="link"+number;return getUrlParam(name)}}var yandexHTML5BannerApi=new CYandexHTML5BannerApi();</script>
+   
+  <meta name="ad.size" content="width=1836,height=572"> 
+  <meta name="authoring-tool" content="Adobe_Animate_CC"> 
+  <title>1836x572</title> 
+  <!-- write your code here --> 
+  <script src="./c4533ae8-657a-48a3-a84d-fa3491553ed6.js"></script> 
+  <script src="./1836x572.js"></script> 
+  <script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("EEB005B67EB34543B3C49FBB59A6F257");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib._1836x572();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.setFPS(lib.properties.fps);
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script> 
+  <!-- write your code here --> 
+ </head> 
+ <body onload="init();" style="margin:0px;" marginwidth="0" marginheight="0"> 
+  <a id="click_area" href="https://an.yandex.ru/count/WR8ejI_zOD80HGq091XzCVY35-fD80K0qW4n6EooOW00000uXALIG0n80c2C66W4SBg7xlMptvho_W600Pwmb0MG0TgpyCZRW8200fW1shFmo5km0PA_xgu8k078k9Ra9C01xW7O0TY-WgS1u07svC2Y0UW1GlW1sehUlW680WAO0lJ50g02tlNW2_02fwUTXGBP9OW5yq-G1VDFi0Me5BW5g1J01VDFo0Me5D05g1IW1iw43AW6peGCk0Qg0ya6kR2Z8yLZrWUf1s_DF71Uq3amu0U6a846u0Zlkl05w0a7y0dO7FW9-0Y02XK4w0oN0k0DWe2HmO20W0YO3hdXZftI-9Zh1uWGpv7ZbGQO4QR39A4HwH8ErLAhgZDi8wWJoewLbDRuwTyM-1CAW1GXw1IC0fWMu9d0bGQW5l3OnPK6oHQO5-RebIwe5mcu5mJ05xRM0UWO0Q0PpeGCi1cu6V___m616l__2-MjPRX2i1gxik7iYkZo_Ay1WXmDHZP1EZ1OJqbDTaDXDwWU0R0V0We0B6JW1LR6aK2qp73i6ddRGnFZG-wOE-cSUt0p98RGKiL10m00~1" target="_blank"> 
+   <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1837px; height:572px"> 
+    <canvas id="canvas" width="1722" height="536" style="position: absolute; display: block; background-color: rgb(255, 255, 255); width: 1837px; height: 572px;"></canvas> 
+    <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1837px; height:572px; position: absolute; left: 0px; top: 0px; display: block;"> 
+    </div> 
+   </div> </a> 
+  <script> 
+	document.getElementById("click_area").href = yandexHTML5BannerApi.getClickURLNum(1);
+</script>  
+ 
+</body></html>
